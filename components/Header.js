@@ -11,4 +11,9 @@
 // Use your function to create a header
 // and append it to the DOM inside the div.header-container
 
-function Header() {}
+function Header() {
+    const head = document.createElement('header');
+    head.textContent = 'header';
+    return Header;
+}
+let first
